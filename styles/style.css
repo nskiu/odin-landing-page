@@ -1,0 +1,39 @@
+body{
+    font-family: sans-serif;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, .hsectxt {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hmaintxt {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+header {
+    background: #1f2937;
+    padding: 0 80px 80px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content {
+    display: flex;
+}
