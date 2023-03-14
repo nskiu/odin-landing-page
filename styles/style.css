@@ -2,6 +2,8 @@ body{
     font-family: sans-serif;
 }
 
+/* Style for the header section */
+
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
@@ -26,7 +28,7 @@ a, .hsectxt {
 
 .hmaintxt {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #f9faf8;
     margin: 0;
     margin-bottom: 8px;
@@ -66,4 +68,41 @@ header {
 }
 .hero-img {
     max-height: 350px;
+}
+
+/* Style for the information section */
+
+#info-header {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+}
+
+.info-img img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #3882f6;
+    border-radius: 12px;
+    /* margin: 0; */
+}
+
+.info-img {
+    /* margin: 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-caption {
+    font-size: 16px;
+    width: 200px;
+    text-align: center;
+}
+
+#info-images {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
 }
